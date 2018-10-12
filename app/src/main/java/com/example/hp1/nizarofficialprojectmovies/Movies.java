@@ -25,5 +25,5 @@ public class Movies {
         this.name = name;
     }
 
-    
+
 }
