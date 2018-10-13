@@ -7,23 +7,28 @@
         android:layout_width="match_parent"
         android:checkableBehavior="single">
         <item
-
+            android:id="@+id/All_movies"
 
             android:title="All Movies" />
         <item
-
+            android:id="@+id/Top_10"
 
             android:title="Top 10" />
         <item
-
+            android:id="@+id/Search"
 
             android:title="Search" />
         <item
-
+            android:id="@+id/Favourites"
 
             android:title="Favourites" />
-        <item android:title="Recommended" />
-        <item android:title="Main Page" />
+        <item
+            android:id="@+id/Recommended"
+            android:title="Recommended" />
+
+        <item
+            android:id="@+id/Main_Page"
+            android:title="Main Page" />
 
     </group>
 

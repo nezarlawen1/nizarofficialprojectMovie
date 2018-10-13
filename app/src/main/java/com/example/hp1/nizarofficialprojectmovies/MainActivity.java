@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.All_movies) {
             //set the fragment initially
             AllMoviesFragment fragment = new AllMoviesFragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container , fragment);
             fragmentTransaction.commit();
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.Top_10) {
             //set the fragment initially
             Top10Fragment fragment = new Top10Fragment();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -106,10 +106,11 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container , fragment);
             fragmentTransaction.commit();
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.Search) {
 
-        } else if (id == R.id.nav_manage) {
-
+        } else if (id == R.id.Favourites) {
+        } else if (id == R.id.Recommended) {
+        } else if (id == R.id.Main_Page) {
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
